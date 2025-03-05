@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gaming-platform/static/css/main.e9c63c8b.css",
+    "main.js": "/gaming-platform/static/js/main.d537621e.js",
+    "index.html": "/gaming-platform/index.html",
+    "main.e9c63c8b.css.map": "/gaming-platform/static/css/main.e9c63c8b.css.map",
+    "main.d537621e.js.map": "/gaming-platform/static/js/main.d537621e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9c63c8b.css",
+    "static/js/main.d537621e.js"
+  ]
+}
