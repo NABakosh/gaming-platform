@@ -12,12 +12,12 @@ function App() {
 		{title:'MotherBoards',img:'img/featureProducts/motherboard.png'}
 	]
 	const leatProd = [
-		{ title: 'G502 Gaming Mouse', img: 'img/leatestProducts/c870x524-removebg-preview 1.png', price: '₹2999 ' },
-		{ title: 'Lenovo Legion 5 Pro', img: 'img/leatestProducts/image 2.png', price: '₹1,69,990 ' },
+		{ title: 'G502 Gaming Mouse', img: '/img/leatestProducts/c870x524-removebg-preview 1.png', price: '₹2999 ' },
+		{ title: 'Lenovo Legion 5 Pro', img: '/img/leatestProducts/image 2.png', price: '₹1,69,990 ' },
 		{ title: 'Playstation 5', img: 'img/leatestProducts/ps5.png', price: '₹29999 ' },
-		{ title: 'Wireless HeadPhone', img: 'img/leatestProducts/headset.png', price: '₹5999 ' },
-		{ title: 'Oculus Quest 2', img: 'img/leatestProducts/31kNfifEo3S5.png', price: '₹9999 ' },
-		{ title: 'XBOX SERIES X CONTROLLER', img: 'img/leatestProducts/Xbox-wireless-controller-carbon-black2.png', price: '₹7999 ' },
+		{ title: 'Wireless HeadPhone', img: '/img/leatestProducts/headset.png', price: '₹5999 ' },
+		{ title: 'Oculus Quest 2', img: '/img/leatestProducts/31kNfifEo3S5.png', price: '₹9999 ' },
+		{ title: 'XBOX SERIES X CONTROLLER', img: '/img/leatestProducts/Xbox-wireless-controller-carbon-black2.png', price: '₹7999 ' },
 	]
 	const offer = [
 		{
@@ -48,17 +48,17 @@ function App() {
 	const trending = [
 		{
 			title: 'Wireless Headset',
-			img: 'img/trendingProducts/1.png',
+			img: '/img/trendingProducts/1.png',
 			price: '₹5999 ',
 		},
 		{
 			title: 'Atari 2600 Joystick',
-			img: 'img/trendingProducts/2.png',
+			img: '/img/trendingProducts/2.png',
 			price: '₹5999 ',
 		},
 		{
 			title: 'PS4 V2  DualShock 4',
-			img: 'img/trendingProducts/3.png',
+			img: '/img/trendingProducts/3.png',
 			price: '₹5999 ',
 		},
 	]
@@ -67,25 +67,25 @@ function App() {
 			name: 'Mohit Sign',
 			date: '21 January,2022',
 			description: 'NO STRINGS WITH WIRELESS HEADPHONE',
-			url: 'img/blog/1.png',
+			url: '/img/blog/1.png',
 		},
 		{
 			name: 'Akshay',
 			date: '31 January,2022',
 			description: 'Laptop Buying Guide - Everything You Need To Know',
-			url: 'img/blog/2.png',
+			url: '/img/blog/2.png',
 		},
 		{
 			name: 'SaberAli',
 			date: '21 February,2022',
 			description: '5 Reason To Switch To A pair of wireless Headphone',
-			url: 'img/blog/3.png',
+			url: '/img/blog/3.png',
 		},
 	]
   return (
 		<div className='App'>
 			<header>
-				<img width={180} height={44} src='img/logo.svg' />
+				<img width={180} height={44} src='/img/logo.svg' />
 				<nav>
 					<li>Home</li>
 					<li>Pages</li>
@@ -94,13 +94,13 @@ function App() {
 					<li>Shop</li>
 				</nav>
 				<div>
-					<img src='img/search.svg' />
+					<img src='/img/search.svg' />
 					<input type='text' placeholder='Search..' />
 				</div>
 				<aside>
-					<img src='img/gift.svg' />
-					<img src='img/profile.svg' />
-					<img src='img/cart.svg' />
+					<img src='/img/gift.svg' />
+					<img src='/img/profile.svg' />
+					<img src='/img/cart.svg' />
 				</aside>
 			</header>
 			<section className='promotion'>
@@ -118,16 +118,16 @@ function App() {
 						<span>₹2999</span>
 					</main>
 					<button>
-						BUY NOW <img src='img/arrow.svg' />
+						BUY NOW <img src='/img/arrow.svg' />
 					</button>
 				</article>
 				<div>
-					<img className='controller' src='img/controller.svg' />
+					<img className='controller' src='/img/controller.svg' />
 					<img
 						width={123}
 						height={125}
 						className='discount'
-						src='img/discount.svg'
+						src='/img/discount.svg'
 					/>
 				</div>
 			</section>
@@ -202,7 +202,7 @@ function App() {
 			<footer>
 				<main>
 					<div className='email'>
-						<img width={180} height={44} src='img/logo.svg' />
+						<img width={180} height={44} src='/img/logo.svg' />
 						<p>Subscribe to email alerts. We promise not to spam your inbox.</p>
 						<div>
 							<input />
@@ -247,18 +247,18 @@ function App() {
 					</div>
 				</main>
 				<nav className='society'>
-					<img src='img/footer/facebook.svg' />
-					<img src='img/footer/instagram.svg' />
-					<img src='img/footer/linkendin.svg' />
-					<img src='img/footer/twitter.svg' />
-					<img src='img/footer/youtube.svg' />
+					<img src='/img/footer/facebook.svg' />
+					<img src='/img/footer/instagram.svg' />
+					<img src='/img/footer/linkendin.svg' />
+					<img src='/img/footer/twitter.svg' />
+					<img src='/img/footer/youtube.svg' />
 				</nav>
 				<div className='links'>
-					<img width={350} src='img/footer/cards.png' />
+					<img width={350} src='/img/footer/cards.png' />
 					<div>
 						<h3>DOWNLOAD THE APP</h3>
-						<img src='img/footer/googleplay.png' />
-						<img src='img/footer/appstore.png' />
+						<img src='/img/footer/googleplay.png' />
+						<img src='/img/footer/appstore.png' />
 					</div>
 				</div>
 				<h4>© 2022 Imagine Marketing Private Limited. All Rights Reserved.</h4>
