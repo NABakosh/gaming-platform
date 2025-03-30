@@ -1,0 +1,60 @@
+.auth{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        transform: translateY(-50px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        gap:30px;
+        p{
+            font-weight: 500;
+            color:#9096B2;
+        }
+        a{
+            color:#9096B2;
+            font-weight: 500;
+        }
+        span{
+            font-weight: 600;
+            color: #FD0054;
+        }
+    }
+}
+.form-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+    p{
+        color: #9096B2;
+    }
+}
+.form-bottom{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    text-align: left;
+    input{
+        padding-left:13px;
+        position: relative;
+        width: 430px;
+        height: 52px;
+        border: 1px solid #C2C5E1;
+        &::placeholder{
+            color: #9096B2;
+        }
+    }
+    button{
+        height: 50px;
+        background-color: #FB2E86;
+        color: white;
+        font-weight: 600;
+    }
+}
