@@ -1,6 +1,5 @@
 import { Link as ScrollLink } from 'react-scroll'
 import { Link as RouterLink, useLocation, useNavigate } from 'react-router'
-import { useEffect } from 'react'
 function Header() {
 	const location = useLocation()
 	const navigate = useNavigate()
@@ -16,7 +15,9 @@ function Header() {
 	return (
 		<div>
 			<header>
-				<ScrollLink to='/'>
+				<ScrollLink to='home'
+				                            onClick={() => handleScrollLinkClick("home")}
+>
 					<a href='#home'>
 						<img width={180} height={44} src='img/logo.svg' />
 					</a>
@@ -32,12 +33,11 @@ function Header() {
                             Home
                         </ScrollLink>
                     </li>
-                    <li>
-                        <RouterLink to="/products">Products</RouterLink>
-                    </li>
+
                     <li>
                         <RouterLink to="/blog">Blog</RouterLink>
                     </li>
+
 				</nav>
 				<div>
 					<img src='img/search.svg' />
@@ -45,9 +45,9 @@ function Header() {
 				</div>
 				<aside>
 					<img src='img/gift.svg' />
-					<ScrollLink to='/Auth'>
+					<RouterLink to='/Auth'>
 						<img src='img/profile.svg' />
-					</ScrollLink>
+					</RouterLink>
 					<img src='img/cart.svg' />
 				</aside>
 			</header>
